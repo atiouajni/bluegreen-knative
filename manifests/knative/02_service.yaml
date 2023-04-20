@@ -1,0 +1,9 @@
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  name: bluegreen-kn-service
+spec:
+  template:
+    spec:
+      containers:
+        - image: REPLACEME 
